@@ -1,0 +1,50 @@
+body {
+ background-image: url(https://static.vecteezy.com/system/resources/previews/000/140/217/large_2x/vector-brick-texture-background.jpg);
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ margin-top: 150px;
+}
+
+h1 {
+  font-weight: bolder;
+  font-size: 60px;
+  letter-spacing: 2px;
+  margin-bottom: 0px;
+  justify-content: center;
+}
+
+.inputSection {
+ margin: 50px 0px 80px 0px;
+ width: 400px;
+ font-size: 20px;
+}
+
+.inputs {
+ width: inherit;
+ display: flex;
+ flex-direction: column;
+ font-size: 40px;
+}
+
+input {
+  margin-top: 10px;
+  margin-bottom: 5px;
+  color: red;
+}
+
+.addOption {
+  margin-top: 10px;
+  font-size: 20px;
+  color: yellow;
+}
+
+.inputx {
+  color: yellow;
+  font-size: 20px;
+}
+
+button {
+  background-color: black;
+}
