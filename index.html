@@ -13,8 +13,22 @@
       </div>
       <button class="addOption">ADD</button>
     </div>
+    <div class="resultSection"></div>
     <button class="inputx">GO!</button>
     <div>
     <img src="https://www.w3schools.com/images/lamp.jpg" alt="lamp" width="50" hight="50">
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script>
+      $(function() {
+       $(`.resultSection`).hide()
+
+       var add_option = function() {
+         $(`.inputs`).append(`<input></input>`)
+       }
+
+       $(`.addOption`).click(add_option)
+      })
+    </script>
   </body>
 </html>
