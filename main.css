@@ -12,7 +12,6 @@ h1 {
   font-size: 60px;
   letter-spacing: 2px;
   margin-bottom: 0px;
-  justify-content: center;
 }
 
 .inputSection {
@@ -47,4 +46,11 @@ input {
 
 button {
   background-color: black;
+}
+
+.resultSection {
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center; 35px;
 }
